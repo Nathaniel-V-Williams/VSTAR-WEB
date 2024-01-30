@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMPANY</title>
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: pippins, sans-serif;
+    }
+    
+     {
+        scroll-behavior: smooth;
+    }
+    
+    header {
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 100px;
+        background: url('images/web1.png') center/ cover no-repeat;
+        color: hwb(244 4% 1%);
+        height: 100vh;
+        background-position: 0% 0%;
+        background-attachment: fixed;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(227, 100%, 52%);
+        padding: .8rem;
+    }
+    
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav a {
+        text-decoration: none;
+        margin: 0 15px;
+        color: #f8f9f9;
+        transition: .3s;
+    }
+    
+    nav a:hover {
+        color: hwb(55 2% 2%);
+        font-size: 1.2rem;
+    }
+    
+    main {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    h2 {
+        margin-bottom: 0px;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .service {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border: 0px solid #ccc;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    #team,
+    #about,
+    #contact {
+        text-align: center;
+        padding: 40px;
+    }
+    
+    
+    
+    form {
+        text-align: left;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    form label,
+    form input,
+    form textarea,
+    form button {
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    form button {
+        background-color: hsl(244, 92%, 50%);
+        color: #f4f3f9;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #about img,
+    footer img {
+        max-width: 30%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: hsl(230, 95%, 50%);
+    }
+    
+    footer p {
+        color: rgb(244, 244, 245);;
+    }
+    
+    .logo {
+        display: flex;
+    }colo
+    
+    
+    
+    .service {
+        border: solid rgb(2, 2, 2) 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service-image {
+        border: solid rgb(201, 208, 201) 2px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .service-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 1;
+    }
+    </style>
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img style="border-radius: 50%; width:50px;height:50px;" src="images/LOGOV.png" alt="Logo">
+                    <h1 style="margin-left:20px;"> VStar Record Int'L Organization </h1>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="registration_form.html">Registration</a></li>
+                </ul>
+            </nav>
+            <h1 style="margin-top: 200px; font-size:50px;">Vstar Record Int'L Organization</h1>
+            <p>The Vstar Record Organization is Dedicated to Showcasing Youth's Hidden Talent.</p>
+            <p>Join us in inspiring the world!</p>
+            <a href="#Contact" class="cta-button">Get in Touch</a>
+        </header>
+        </div>
+
+            <h2 style="text-align: center;">Our Services</h2>
+            <div class="flex">
+                <section id="services">
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="images/LOGOV.png" alt="Service 1">
+                        </div>
+                        <h3>Soccer</h3>
+                        <p>The Vstar Record Organization is Dedicated to Showcasing Youth's Hidden Talent.</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="images/LOGOV.png" alt="Service 2">
+                        </div>
+                        <h3>Singing and dancing</h3>
+                        <p>The Vstar Record Organization is Dedicated to Showcasing Youth's Hidden Talent.</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="images/LOGOV.png" alt="Service 3">
+                        </div>
+                            <h3>basketball</h3>
+                            <p>The Vstar Record Organization is Dedicated to Showcasing Youth's Hidden Talent.</p>
+                            </div>
+                        
+                </section>
+            </div>
+        </main>
+
+        <section id="team">
+            <h2>Our Founding Members</h2>
+            <p>Who also Served as First Leaders from March 05, 2017 to December 15, 2017</p>
+
+            <div class="flex">
+                <div class="team-member">
+                    <div class="img">
+                        <img src="images/ceo.png" alt="Team Member 1">
+                    </div>
+                    <p>Nathaniel V. Williams</p>
+                    <p>CEO</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="img">
+                        <img src="images/mandela.png" alt="Team Member 2">
+                    </div>
+                    <p>Mandela B. Brown</p>
+                    <p>First President</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="img">
+                        <img src="images/sam.png" alt="Team Member 3">
+                    </div>
+                    <p>Sam L. Boyah II</p>
+                    <p>First Vice President</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="img">
+                        <img src="images/abraham.png" alt="Team Member 4">
+                    </div>
+                    <p>Abraham K. Sombai</p>
+                    <p>First General Secretary</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="img">
+                        <img src="images/edwinp.png" alt="Team Member 5">
+                    </div>
+                    <p>Edwin Fallah The Late</p>
+                    <p>First Advisor</p>
+                </div>
+            </div>
+            <section id="team">
+                <h2>Our Second Leadership</h2>
+                <p>Who also served from January 10, 2019 to July 10, 2019 </p>
+    
+                <div class="flex">
+                    <div class="team-member">
+                        <div class="img">
+                            <img src="images/ceo.png" alt="Team Member 1">
+                        </div>
+                        <p>Nathaniel V. Williams</p>
+                        <p>CEO</p>
+                    </div>
+    
+                    <div class="team-member">
+                        <div class="img">
+                            <img src="images/moha.png" alt="Team Member 2">
+                        </div>
+                        <p>Mohammed Suahib Malike</p>
+                        <p>President</p>
+                    </div>
+    
+                    <div class="team-member">
+                        <div class="img">
+                            <img src="images/jabateh.png.jpg" alt="Team Member 3">
+                        </div>
+                        <p>Ebenezer Jamel Lansana</p>
+                        <p>Vice President</p>
+                    </div>
+    
+                    <div class="team-member">
+                        <div class="img">
+                            <img src="images/abraham.png" alt="Team Member 4">
+                        </div>
+                        <p>Abraham K. Sombai</p>
+                        <p>General Secretary</p>
+                    </div>
+    
+                    <div class="team-member">
+                        <div class="img">
+                            <img src="images/prince.png" alt="Team Member 5">
+                        </div>
+                        <p>Prince S. Bedford</p>
+                        <p>Public Relation Officer</p>
+                    </div>
+                </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our Organization is Dedicated to Showcasing Youth's Hidden Talent<br>
+                 <br>through innovative and effective Organizational strategies.<br> 
+                 <br>Our team of experts understands the importance of providing an<br>
+                 <br>avenue for young people in our today's society.</p>
+            <img src="images/Nathalyn.png" alt="About Image">
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Get in touch with us today! Our team is here to answer any questions<br>
+                 <br>you may have and help you in finding a solution to your needs.<br> 
+                 <br>Simply fill out the form below with your name, email, and message,<br> 
+                 <br>and we'll be in touch shortly. We're excited to hear from you and help you achieve your goals.</p>
+
+    
+                 <form action="insertContact.php" method="post">
+                <input placeholder="Your Name" type="text" id="Name" name="Name" required>
+
+                <input placeholder="vstarrecord@gmail.com" type="Email" id="Email" name="Email" required>
+
+                <textarea placeholder="Dont exceed 255 words" id="Message" name="Message" required></textarea>
+
+                <button type="submit" class="cta-button">Submit</button>
+                <button type="reset" class="cta-button">Cancel</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2017 Vstar Record Organization. All rights reserved.</p>
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,39 @@
+<style>
+/* Add some basic styling for presentation purposes */
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+div {
+  width: 100%; /* Allow the div to take the remaining width */
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left; /* Fix the text alignment */
+}

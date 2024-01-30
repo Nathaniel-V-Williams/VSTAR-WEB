@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logan</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <center>
+        <br><br>
+        <br><br>
+        <div>
+            <h2 id="header">VSTAR RECORD ORGANIZATION SIGN IN FORM</h2>
+            <form action="submit.php" method="post" enctype="multipart/form-data">
+                <label for="Name">First Name:</label>
+                <input type="text" id="Name" name="Name" required="">
+                <br><br>
+                <label for="Name">Last Name:</label>
+                <input type="text" id="Name" name="Name" required="">
+                <br><br>
+                <label for="Email">Email:</label>
+                <input type="text" id="email" name="email" required="">
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required="">
+                <br><br>
+                <label for="gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="datafield" value="Male" required="">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="datafield" value="Female" required="">
+                <br><br>
+                <label for="cv">Upload CV</label>
+                <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required="">
+                <br><br>
+                <label for="image">Upload image</label>
+                <input type="file" id="image" name="image" accept="image/*" required="">
+                <br><br>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="Comment" required=""></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
