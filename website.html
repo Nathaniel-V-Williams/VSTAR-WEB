@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column; /* Updated to display the menu items vertically */
+            background-color: #555;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block; /* Updated to display the menu items as blocks */
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            left: 0; /* Position the dropdown on the left side */
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .login-panel {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #eee;
+        }
+
+        .login-panel label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .login-panel input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .login-panel button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Organization</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <div class="dropdown">
+        <a href="#">Services</a>
+        <div class="dropdown-content">
+            <a href="#">Service 1</a>
+            <a href="#">Service 2</a>
+            <a href="#">Service 3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Products</a>
+        <div class="dropdown-content">
+            <a href="#">Product 1</a>
+            <a href="#">Product 2</a>
+            <a href="#">Product 3</a>
+        </div>
+    </div>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Musicians</h2>
+    <!-- Add content related to musicians here -->
+</section>
+
+<section>
+    <h2>Basketballers</h2>
+    <!-- Add content related to basketballers here -->
+</section>
+
+<section>
+    <h2>Soccer</h2>
+    <!-- Add content related to soccer here -->
+</section>
+
+<section>
+    <div class="login-panel">
+        <h2>Login Panel (Administrator)</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</section>
+
+<!-- Add your website content here -->
+
+</body>
+</html>

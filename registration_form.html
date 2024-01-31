@@ -5,7 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="css/nstyles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        div {
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            grid-column: span 3; /* Make the submit button span all three columns */
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,54 +70,54 @@
         <h2>Registration Form</h2>
         <form action="insertform.html" method="post">
             <label for="fname">First Name:</label>
-            <input type="text" name="fname" required><br>
+            <input type="text" name="fname" required>
 
             <label for="lname">Last Name:</label>
-            <input type="text" name="lname" required><br>
+            <input type="text" name="lname" required>
 
             <label for="dob">Date of Birth:</label>
-            <input type="date" name="dob" required><br>
+            <input type="date" name="dob" required>
 
             <label for="gender">Gender:</label>
             <select name="gender" required>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="other">Other</option>
-            </select><br>
+            </select>
 
             <label for="email">Email:</label>
-            <input type="email" name="email" required><br>
+            <input type="email" name="email" required>
 
             <label for="phone_number">Phone Number:</label>
-            <input type="text" name="phone_number" required><br>
+            <input type="text" name="phone_number" required>
 
             <label for="position">Position:</label>
-            <input type="text" name="position" required><br>
+            <input type="text" name="position" required>
 
             <label for="Age">Age:</label>
-            <input type="text" name="Age" required><br>
+            <input type="text" name="Age" required>
 
             <label for="height">Height:</label>
-            <input type="text" name="height" required><br>
+            <input type="text" name="height" required>
 
             <label for="Omane">Organization name:</label>
-            <input type="text" name="Omane" required><br>
+            <input type="text" name="Omane" required>
 
             <label for="mother_name">Mother's Name:</label>
-            <input type="text" name="mother_name" required><br>
+            <input type="text" name="mother_name" required>
 
             <label for="father_name">Father's Name:</label>
-            <input type="text" name="father_name" required><br>
+            <input type="text" name="father_name" required>
 
             <label for="profession">Profession:</label>
-            <input type="text" name="profession" required><br>
+            <input type="text" name="profession" required>
 
             <!-- New fields for username and password -->
             <label for="username">Username:</label>
-            <input type="text" name="username" required><br>
+            <input type="text" name="username" required>
 
             <label for="password">Password:</label>
-            <input type="password" name="password" required><br>
+            <input type="password" name="password" required>
 
             <input type="submit" value="Submit">
         </form>
