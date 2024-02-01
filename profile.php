@@ -99,9 +99,9 @@ $conn->close();
 </head>
 <body>
     <div class="profile-container">
-        <img src="photos/<?php echo $row['images']; ?>" alt="Profile image">
+        <img src="images/<?php echo $row['images']; ?>" alt="Profile image">
         <div>
-            <h1><?php echo $row['fname'] . ' ' . $row['lname']; ?></h1>
+            <h1><?php echo $row['fname'] . ' ' . $row['lname']; ?> <p>TESTSETS</p></h1>
             <table>
                 <tr>
                     <th>Date of Birth:</th>
